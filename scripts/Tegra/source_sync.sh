@@ -60,25 +60,25 @@ SCRIPT_NAME=`basename $0`
 # info about sources.
 # NOTE: *Add only kernel repos here. Add new repos separately below. Keep related repos together*
 SOURCE_INFO="
-k:kernel/kernel-4.9:nv-tegra.nvidia.com/linux-4.9.git:
-k:kernel/nvgpu:nv-tegra.nvidia.com/linux-nvgpu.git:
-k:kernel/nvidia:nv-tegra.nvidia.com/linux-nvidia.git:
-k:hardware/nvidia/soc/t18x:nv-tegra.nvidia.com/device/hardware/nvidia/soc/t18x.git:
-k:hardware/nvidia/platform/tegra/common:nv-tegra.nvidia.com/device/hardware/nvidia/platform/tegra/common.git:
-k:hardware/nvidia/platform/t18x/common:nv-tegra.nvidia.com/device/hardware/nvidia/platform/t18x/common.git:
-k:hardware/nvidia/platform/t18x/quill:nv-tegra.nvidia.com/device/hardware/nvidia/platform/t18x/quill.git:
-k:hardware/nvidia/soc/t210:nv-tegra.nvidia.com/device/hardware/nvidia/soc/t210.git:
-k:hardware/nvidia/platform/t210/common:nv-tegra.nvidia.com/device/hardware/nvidia/platform/t210/common.git:
-k:hardware/nvidia/platform/t210/jetson:nv-tegra.nvidia.com/device/hardware/nvidia/platform/t210/jetson.git:
-k:hardware/nvidia/platform/t210/porg:nv-tegra.nvidia.com/device/hardware/nvidia/platform/t210/porg.git:
-k:hardware/nvidia/soc/t19x:nv-tegra.nvidia.com/device/hardware/nvidia/soc/t19x.git:
-k:hardware/nvidia/platform/t19x/common:nv-tegra.nvidia.com/device/hardware/nvidia/platform/t19x/common.git:
-k:hardware/nvidia/platform/t19x/galen/kernel-dts:nv-tegra.nvidia.com/device/hardware/nvidia/platform/t19x/stardust-dts.git:
-k:hardware/nvidia/platform/t19x/jakku/kernel-dts:nv-tegra.nvidia.com/device/hardware/nvidia/platform/t19x/jakku-dts.git:
-k:hardware/nvidia/soc/tegra:nv-tegra.nvidia.com/device/hardware/nvidia/soc/tegra.git:
+k:kernel/kernel-4.9:gitlab.com/linux-4.9.git:
+k:kernel/nvgpu:gitlab.com/linux-nvgpu.git:
+k:kernel/nvidia:gitlab.com/linux-nvidia.git:
+k:hardware/nvidia/soc/t18x:gitlab.com/device/hardware/nvidia/soc/t18x.git:
+k:hardware/nvidia/platform/tegra/common:gitlab.com/device/hardware/nvidia/platform/tegra/common.git:
+k:hardware/nvidia/platform/t18x/common:gitlab.com/device/hardware/nvidia/platform/t18x/common.git:
+k:hardware/nvidia/platform/t18x/quill:gitlab.com/device/hardware/nvidia/platform/t18x/quill.git:
+k:hardware/nvidia/soc/t210:gitlab.com/device/hardware/nvidia/soc/t210.git:
+k:hardware/nvidia/platform/t210/common:gitlab.com/device/hardware/nvidia/platform/t210/common.git:
+k:hardware/nvidia/platform/t210/jetson:gitlab.com/device/hardware/nvidia/platform/t210/jetson.git:
+k:hardware/nvidia/platform/t210/porg:gitlab.com/device/hardware/nvidia/platform/t210/porg.git:
+k:hardware/nvidia/soc/t19x:gitlab.com/device/hardware/nvidia/soc/t19x.git:
+k:hardware/nvidia/platform/t19x/common:gitlab.com/device/hardware/nvidia/platform/t19x/common.git:
+k:hardware/nvidia/platform/t19x/galen/kernel-dts:gitlab.com/device/hardware/nvidia/platform/t19x/stardust-dts.git:
+k:hardware/nvidia/platform/t19x/jakku/kernel-dts:gitlab.com/device/hardware/nvidia/platform/t19x/jakku-dts.git:
+k:hardware/nvidia/soc/tegra:gitlab.com/device/hardware/nvidia/soc/tegra.git:
 "
 SOURCE_INFO+="
-u:u-boot:nv-tegra.nvidia.com/3rdparty/u-boot.git:
+u:u-boot:gitlab.com/3rdparty/u-boot.git:
 "
 
 # exit on error on sync
